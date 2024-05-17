@@ -1,6 +1,7 @@
+# PruebaMovil
 ### **Descripción**
 
-Esta aplicación móvil ha sido desarrollada utilizando Ionic Framework y Firebase Authentication. La aplicación permite a los usuarios registrarse, iniciar sesión y acceder a una página de inicio (dashboard). La autenticación de usuarios se gestiona con Firebase Authentication.
+Se Ionic Framework y Firebase Authentication. La aplicación permite a los usuarios registrarse, iniciar sesión y acceder a una página de inicio . La autenticación de usuarios se gestiona con Firebase Authentication.
 
 ### **Características**
 
@@ -75,4 +76,4 @@ Este proyecto demuestra cómo utilizar Ionic Framework junto con Firebase Authen
     - **`npm`**: Gestor de paquetes para JavaScript.
 5. **AngularFire**: Librería específica para integrar Firebase en aplicaciones Angular.
     - **`@angular/fire`**: Proporciona módulos Angular para Firebase Authentication, Firestore y otros servicios.
-# PruebaMovil
+
