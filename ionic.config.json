@@ -1,0 +1,7 @@
+{
+  "name": "decdacticFire",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
