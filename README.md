@@ -1,6 +1,6 @@
 ### **Descripción**
 
-Esta aplicación móvil ha sido desarrollada utilizando Ionic Framework y Firebase Authentication. La aplicación permite a los usuarios registrarse, iniciar sesión y acceder a una página de inicio (dashboard). La autenticación de usuarios se gestiona con Firebase Authentication.
+Se Ionic Framework y Firebase Authentication. La aplicación permite a los usuarios registrarse, iniciar sesión y acceder a una página de inicio . La autenticación de usuarios se gestiona con Firebase Authentication.
 
 ### **Características**
 
