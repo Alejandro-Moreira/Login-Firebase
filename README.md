@@ -77,3 +77,4 @@ Este proyecto demuestra cómo utilizar Ionic Framework junto con Firebase Authen
 5. **AngularFire**: Librería específica para integrar Firebase en aplicaciones Angular.
     - **`@angular/fire`**: Proporciona módulos Angular para Firebase Authentication, Firestore y otros servicios.
 
+# Login-Firebase
