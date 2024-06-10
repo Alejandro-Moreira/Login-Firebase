@@ -18,7 +18,7 @@ cd nombre-proyecto<br>
 ![image](https://github.com/Alejandro-Moreira/Login-Firebase/assets/117743484/9dabec88-0fff-4a9d-81a7-117c7ca429d0)
 
 * Instalar Firebase y AngularFire
-npm install firebase @angular/fire
+    * npm install firebase @angular/fire
 
 * Configurar Firebase en tu Proyecto Angular
 Copia la configuración de tu proyecto Firebase desde la consola de Firebase.<br>
