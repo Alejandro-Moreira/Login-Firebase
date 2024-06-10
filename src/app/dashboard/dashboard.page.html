@@ -1,61 +1,125 @@
-<ion-header [translucent]="true"> 
-  <ion-toolbar> 
-    <ion-title> 
-      Hoja de Vida 
-    </ion-title> 
-  </ion-toolbar> 
-</ion-header> 
- 
-<ion-content [fullscreen]="true"> 
-  <ion-header collapse="condense"> 
-    <ion-toolbar> 
-      <ion-title size="large">Información y educación</ion-title> 
-    </ion-toolbar> 
-  </ion-header> 
- 
-  <div class="welcome-message"> 
-    <h1>Alejandro Miguel Moreira Jacho</h1> 
-    <p>Un saludo a todos, soy Alejandro Moreira nací el 15 de noviembre del año 2002 en la ciudad de Quito, soy estudiante de la ESFOT y me encuentro cruzando el último semestre. A continuación, verán datos relevantes sobre mí.</p> 
-    <ul> 
-      <li>Conocimientos 
-        <ul> 
-          <li>Habilidades en programación: 
-            <ul> 
-              <li>Java</li> 
-              <li>Python</li> 
-              <li>Javascript</li> 
-              <li>C++</li> 
-            </ul> 
-          </li> 
-          <li>Conocimientos en bases de datos como: 
-            <ul> 
-              <li>MongoDB</li> 
-              <li>CouchDB</li> 
-            </ul> 
-          </li> 
-          <li>Idiomas 
-            <ul> 
-              <li>Nativo: Español</li> 
-              <li>Inglés: Avanzado</li> 
-            </ul> 
-          </li> 
-        </ul> 
-      </li> 
-      <li>Formación académica       
-        <ul> 
-          <li>COLEGIO: Unidad Educativa “Daniel Enrique Proaño”</li> 
-          <li>BACHILLERATO: Bachiller Técnico de Servicios Informáticos</li> 
-          <li>UNIVERSIDAD: Tecnología Superior en Desarrollo de Software (Escuela Politécnica Nacional)</li> 
-        </ul> 
-      </li> 
-      <li>Contacto 
-        <ul> 
-          <li>Correo institucional: alejandro.moreira&#64;epn.edu.ec</li> 
-          <li>E-mail: moreiramikel11&#64;gmail.com</li> 
-          <li>Teléfono: 0967881741</li> 
-          <li>C.I: 175271793-2</li> 
-        </ul> 
-      </li> 
-    </ul> 
-  </div> 
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Dashboard
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Dashboard</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <!-- Sección de bienvenida -->
+  <div class="welcome-message">
+    <h1>Bienvenidos a mi Hoja de Vida</h1>
+    <br>
+    <div class="image-container">
+      <img src="../dashboard/AlejoCV.png" alt="Imagen CV" class="normal-image">
+    </div>   
+    <br>
+    <p>Aquí podrán descubrir información relevante sobre mí.
+      <br> Además verán mis conocimientos e intereses en la materia y carrera que estudio.
+    </p>
+  </div>
+
+  <!-- Sección de información y educación -->
+  <div class="section">
+    <ion-header collapse="condense">
+      <ion-toolbar>
+        <ion-title size="large">Información y educación</ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+    <div class="welcome-message">
+      <h1>Alejandro Miguel Moreira Jacho</h1>
+      <p>Un saludo a todos, soy Alejandro Moreira nací el 15 de noviembre del año 2002 en la ciudad de Quito, soy estudiante de la ESFOT y me encuentro cruzando el último semestre. A continuación, verán datos relevantes sobre mí.</p>
+      <ul>
+        <li>Conocimientos
+          <ul>
+            <li>Habilidades en programación:
+              <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>Javascript</li>
+                <li>C++</li>
+              </ul>
+            </li>
+            <li>Conocimientos en bases de datos como:
+              <ul>
+                <li>MongoDB</li>
+                <li>CouchDB</li>
+              </ul>
+            </li>
+            <li>Idiomas
+              <ul>
+                <li>Nativo: Español</li>
+                <li>Inglés: Avanzado</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>Formación académica
+          <ul>
+            <li>COLEGIO: Unidad Educativa “Daniel Enrique Proaño”</li>
+            <li>BACHILLERATO: Bachiller Técnico de Servicios Informáticos</li>
+            <li>UNIVERSIDAD: Tecnología Superior en Desarrollo de Software (Escuela Politécnica Nacional)</li>
+          </ul>
+        </li>
+        <li>Contacto
+          <ul>
+            <li>Correo institucional: alejandro.moreira&#64;epn.edu.ec</li>
+            <li>E-mail: moreiramikel11&#64;gmail.com</li>
+            <li>Teléfono: 0967881741</li>
+            <li>C.I: 175271793-2</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Sección de intereses y hobbies -->
+  <div class="section">
+    <ion-header collapse="condense">
+      <ion-toolbar>
+        <ion-title size="large">Intereses y Hobbies</ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+    <div class="welcome-message">
+      <h1>Hobbies e intereses</h1>
+      <p>En esta sección sabrán un poco más de mí y sobre las actividades que realizó en mi día a día.</p>
+      <ul>
+        <li>Actividades que realizo en mi tiempo libre
+          <ul>
+            <li>Hobbies:
+              <ul>
+                <li>Jugar fútbol</li>
+                <li>Salir con amigos</li>
+                <li>Escuchar música</li>
+                <li>Leer</li>
+              </ul>
+            </li>
+            <li>Intereses:
+              <ul>
+                <li>Aplicar mis habilidades técnicas y conocimientos</li>
+                <li>Contribuir al desarrollo de soluciones tecnológicas que beneficien a la sociedad</li>
+              </ul>
+            </li>
+            <li>Información extra
+              <ul>
+                <li>Tengo 4 hermanos</li>
+                <li>Estoy soltero</li>
+                <li>Tengo 21 años</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
 </ion-content>
+
